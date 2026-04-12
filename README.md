@@ -5,7 +5,7 @@
 ## 复制技能到 Openclaw
 
 ```bash
-mkdir -p /Users/milestian/.openclaw/workspace/skills && for dir in */; do [ -d "$dir" ] && cp -r "${dir%/}" /Users/milestian/.openclaw/workspace/skills/; done
+mkdir -p /Users/milestian/.nanobot/workspace/skills && for dir in */; do [ -d "$dir" ] && cp -r "${dir%/}" /Users/milestian/.nanobot/workspace/skills/; done
 ```
 
 **说明：**
